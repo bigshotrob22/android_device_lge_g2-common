@@ -69,7 +69,8 @@ PRODUCT_COPY_FILES += \
 
 # GPS configuration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gps.conf:system/etc/gps.conf
+    $(LOCAL_PATH)/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/izat.conf:system/etc/izat.conf
 
 PRODUCT_PACKAGES += \
     charger_res_images \
@@ -173,8 +174,7 @@ PRODUCT_PACKAGES += \
 	libloc_adapter \
 	libloc_eng \
 	libloc_api_v02 \
-	libgps.utils \
-	gps.msm8974
+	libgps.utils
 
 PRODUCT_PACKAGES += \
 	hwaddrs
