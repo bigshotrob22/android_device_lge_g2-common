@@ -172,9 +172,7 @@ PRODUCT_PACKAGES += \
 	libc2dcolorconvert
 
 PRODUCT_PACKAGES += \
-	libloc_adapter \
-	libloc_api_v02 \
-	libgps.utils
+	libloc_adapter
 
 PRODUCT_PACKAGES += \
 	hwaddrs
